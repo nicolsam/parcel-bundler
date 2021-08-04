@@ -18,5 +18,8 @@
   "homepage": "https://github.com/nicolsam/parcer-bundler#readme",
   "dependencies": {
     "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "sass": "^1.37.5"
   }
 }
