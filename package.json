@@ -1,0 +1,22 @@
+{
+  "name": "parser-bundler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolsam/parcer-bundler.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicolsam/parcer-bundler/issues"
+  },
+  "homepage": "https://github.com/nicolsam/parcer-bundler#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
