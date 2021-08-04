@@ -1964,10 +1964,16 @@ var jokes = {
   }
 };
 exports.jokes = jokes;
-},{"axios":"node_modules/axios/index.js"}],"index.js":[function(require,module,exports) {
+},{"axios":"node_modules/axios/index.js"}],"../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/_empty.js":[function(require,module,exports) {
+
+},{}],"index.js":[function(require,module,exports) {
 "use strict";
 
 var _jokes = require("./jokes");
+
+var _fs = _interopRequireDefault(require("fs"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 // Common Javascript:
 // const jokes = require('./jokes');
@@ -1975,7 +1981,10 @@ var _jokes = require("./jokes");
 _jokes.jokes.getOne().then(function (joke) {
   document.querySelector('#joke').innerHTML = joke;
 });
-},{"./jokes":"jokes.js"}],"../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+
+var copyright = "Copyright 2021";
+document.querySelector('#copy').innerHTML = copyright;
+},{"./jokes":"jokes.js","fs":"../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/_empty.js"}],"../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
